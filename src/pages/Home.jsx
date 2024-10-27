@@ -39,7 +39,7 @@ const Home = () => {
                     setSearchParams={setSearchParams}
                 />
             </div>
-            <div className='grid grid-cols-4 gap-5 my-10'>
+            <div className='grid grid-cols-1 md:grid-cols-4 gap-5 my-10'>
                 {
                     filterItems.map((product) => <ProductCard key={product.id} product={product} />)
                 }

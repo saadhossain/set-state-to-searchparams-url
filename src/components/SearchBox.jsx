@@ -19,7 +19,7 @@ const SearchBox = ({ searchText, setSearchParams }) => {
             type="text"
             defaultValue={searchText}
             placeholder='What you are looking for?'
-            className='w-1/4 h-10 px-3 rounded-3xl focus:outline-none text-gray-900' />
+            className='w-4/6 md:w-1/4 h-10 px-3 rounded-3xl focus:outline-none text-gray-900' />
     );
 };
 
